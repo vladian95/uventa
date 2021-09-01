@@ -8,6 +8,7 @@ html{
 }
 a{
     display: inline-block;
+    text-decoration: none;
 }
 ul,
 li{
@@ -15,3 +16,8 @@ li{
     margin: 0;
     list-style: none;
 }
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0px 15px;
+} 
