@@ -180,3 +180,24 @@
         }
     }
 }
+.breadcrumbs__inner{
+    padding: 20px 0px;
+    ul{
+        li{
+            display: inline-block;
+            &:last-child{
+                span{
+                    color: #cccccc;
+                    font-size: 12px;
+                }
+            }
+            a{
+                color: #6e6e6e;
+                font-size: 12px;
+            }
+            & + li{
+                margin-left: 20px;
+            }
+        }
+    }
+}
