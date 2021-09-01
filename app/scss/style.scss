@@ -41,3 +41,53 @@
         }
     }
 }
+.contacts__inner{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+    .logo{
+        span{
+            display: block;
+            font-size: 12px;
+            color: #6e6e6e;
+        }
+    }
+    .contacts__item{
+        max-width: 150px;
+        margin: 0;
+        font-size: 14px;
+        span{
+            font-weight: 700;
+        }
+    }
+    .contacts__item-inquiry{
+        max-width: 88px;
+    }
+    .contacts__item-num{
+        max-width: 140px;
+        font-size: 18px;
+        .callback{
+            font-size: 11px;
+            padding: 10px;
+            text-transform: uppercase;
+            margin-top: 11px;
+            border: none;
+            background-color: #ffec00;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                top: -5px;
+                left: 50%;
+                right: 50%;
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-bottom: 5px solid #ffec00;
+            }
+        }
+        
+    }
+}
