@@ -1,6 +1,7 @@
 @import "vars";
 @import "global";
 @import "fonts";
+@import "media";
 
 .header {
     background-color: #ededed;
@@ -16,6 +17,16 @@
     font-size: 14px;
     align-items: center;
     .menu {
+        .menu__btn{
+            width: 30px;
+            display: none;
+            .menu__btn-row{
+                width: 100%;
+                height: 4px;
+                background-color: #000;
+                margin-bottom: 3px;
+            }
+        }
         ul {
             li {
                 display: inline-block;
@@ -85,6 +96,9 @@
         max-width: 150px;
         font-size: 18px;
         position: relative;
+        a{
+            color: #000;
+        }
         img{
             position: absolute;
             left: -30px;
